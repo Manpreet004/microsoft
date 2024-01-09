@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+}
+.bottons{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: small;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.space{
+    width: 400px;
+    height: 100%;
+}
+.microsoft{
+    background-image: url(download.png);
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width: 150px;
+}
+.bottons i{
+    font-size: 20px;
+}
+.border::after{
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    display: block;
+}
+.border:hover::after{
+    width: 100%;
+    transition: width 0s linear;
+}
+.allmicrosoft select{
+    border: none;
+}
+.top{ 
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600);
+    background-size: cover;
+    height: 60%;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 62%;
+    padding-top: 150px;
+}
+#textp{
+    margin-top: 30px;
+    font-weight: 200;
+    font-family:  "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(0, 0, 0);
+}
+.learnmore{
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 110px;
+    background-color: rgb(0, 103, 184);
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    border-bottom: rgba(0, 0, 0, 0);
+    border-top: rgba(0, 0, 0, 0);
+    border-left: rgba(0, 0, 0, 0);
+    border-right: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+}
+.learnmore p{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+#heading{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 28.8px;
+}
+.panel{
+    text-decoration: none;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    color: rgb(23, 23, 23);
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.bullet{
+    width: 44px;
+    height: 44px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.bone{
+    margin-bottom: 10px;
+}
+.bthree{
+    font-size: 10px;
+    margin-top: 12px;
+}
+.bfour{
+    font-size: 10px;
+    margin-top: 12px;
+}
+.panel a{
+    text-decoration: none;
+}
+.links{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: end;
+}
+.links a{
+    font-weight: 600;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: rgb(0, 103, 184);
+    align-items: end;
+}
+
+.img{
+    margin-left: 38%;
+    margin-bottom: 8px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40);
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+.scndimg{
+    margin-left: 38%;
+    margin-bottom: 8px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-go2-link-list-120x120?wid=40&hei=40);
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.thirdimg{
+    margin-left: 38%;
+    margin-bottom: 8px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/xbox-blk-logo-link-list-120x120?wid=40&hei=40);
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+.container{
+    margin-top: 80px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 480px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cont{
+    height: 100%;
+    width: 310px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-M1-Platinum-01-1?wid=515&hei=293&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.contiiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=297&hei=167&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.contiiiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Bing-AI-Open-Preview?wid=297&hei=167&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.contivimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XGP-Game-Pass-Ultimate-Characters-06102010-1?wid=297&hei=167&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.cont h2{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+.cont p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.cont a{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-weight: 600;
+    color: rgb(0, 103, 184);
+}
+.midimg{
+    margin-top: 80px;
+    height: 516px;
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-size: cover;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1596x600);
+}
+.see{
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 180px;
+    background-color: rgb(0, 103, 184);
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    border-bottom: rgba(0, 0, 0, 0);
+    border-top: rgba(0, 0, 0, 0);
+    border-left: rgba(0, 0, 0, 0);
+    border-right: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+}
+.see p{
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.midtext{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
+    width: 500px;
+    padding-top: 150px;
+    color:rgb(255, 255, 255) ;
+}
+.midtext h1{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 28.8px;
+}
+.midp{
+    margin-top: 30px;
+    font-weight: 200;
+    font-family:  "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(255, 255, 255);
+}
+.forbusines h1 {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 80px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(0, 0, 0);
+}
+.scontainer{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 480px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.scont{
+    height: 100%;
+    width: 310px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.scontiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Surf-CP-SurfaceFamilyForBusiness?wid=406&hei=230&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.scontiiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=406&hei=230&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.scontiiiimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=406&hei=230&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.scontivimg{
+    height: 186.15px;
+    width: 310px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call?wid=406&hei=230&fit=crop);
+    background-size: cover;
+    border-radius: 4px;
+}
+.scont h2{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+.scont p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.scont a{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-weight: 600;
+    color: rgb(0, 103, 184);
+}
